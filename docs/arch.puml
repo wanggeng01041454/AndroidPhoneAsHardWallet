@@ -1,0 +1,42 @@
+@startuml 架构
+    title
+        架构
+    end title
+
+    component metamask [
+        metamask
+        ====
+        浏览器中的metamask插件
+    ]
+
+    component relayserver [
+        relayserver
+        ====
+        运行在桌面山的relayserver
+        一个带gui界面的 go 程序
+        ....
+        要依赖 
+        https://github.com/trezor/trezord-go
+        项目
+    ]
+
+
+    component wallet [
+        wallet
+        ====
+        一个基于 python + pyside6 的钱包应用
+        ----
+        v1版本时，这个钱包只用运行在 桌面上
+        ubuntu & windows
+        ----
+        v2版本时，将其打包成apk，运行在手机上
+    ]
+
+    metamask --> relayserver : metamask和trezor钱包的驻留进程通信\
+    \n 可以在metamask中看到trezor钱包的地址
+
+    relayserver -> wallet : 驻留进程和钱包进程通信\
+    \n 获取地址，签名等
+
+
+@enduml
