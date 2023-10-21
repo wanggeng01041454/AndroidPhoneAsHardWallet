@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/gerik/aphw/relayserver/ui"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	ui.RunUi()
 }

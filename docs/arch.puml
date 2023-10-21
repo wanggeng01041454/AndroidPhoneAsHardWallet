@@ -40,3 +40,47 @@
 
 
 @enduml
+
+@startuml 2.relayserver.arch
+    title
+        relayserver 架构
+    end title
+
+    component ui [
+        gui 界面
+        ====
+        功能点
+        1. 输入硬件钱包IP地址（这里的硬件钱包就是 Android 模拟钱包）
+        2. 展示 和 metamask 的连接状态
+        3. 展示 和 硬件钱包的连接状态（Android 模拟钱包）
+        4. 展示 和 metamask 连接时的日志信息
+
+    ]
+
+    component trezor {
+        component trezord [
+            trezord
+            ====
+            就是 trezord-go 项目中实现的server
+        ]
+
+        component usbsim [
+            usbsim
+            ====
+            将 Android 模拟钱包模拟成一个 usb 设备的实现
+        ]
+    }
+
+
+    component main [
+        main
+        ====
+        1. 配置界面的回调函数，指向 trezord 启动函数
+        2. 将界面的写入日志函数，封装成 trezord 的日志输出接口，并传入 trezord 的启动函数
+    ]
+
+
+    main --> ui : 配置界面的回调函数，指向 trezord 启动函数
+    main --> trezord : 将界面的写入日志函数，封装成 trezord 的日志输出接口，并传入 trezord 的启动函数
+@enduml
+

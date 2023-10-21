@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="386px" preserveAspectRatio="none" style="width:771px;height:386px;background:#FFFFFF;" version="1.1" viewBox="0 0 771 386" width="771px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.1201" id="_title" style="stroke:none;stroke-width:1.0;" width="40" x="358.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="363.75" y="26.0439">架构</text><!--MD5=[7f543cffb25a8908fac16db8936cda0d]
+entity metamask--><g id="elem_metamask"><rect fill="#F1F1F1" height="76.2402" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="202" x="36.5" y="47.1201"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="218.5" y="52.1201"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="216.5" y="54.1201"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="216.5" y="58.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="51.5" y="83.1641">metamask</text><line style="stroke:#181818;stroke-width:1.0;" x1="37.5" x2="237.5" y1="86.2402" y2="86.2402"/><line style="stroke:#181818;stroke-width:1.0;" x1="37.5" x2="237.5" y1="88.2402" y2="88.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="51.5" y="106.2842">浏览器中的metamask插件</text></g><!--MD5=[e60b0e84f1256f5f0b5ef076e41da23f]
+entity relayserver--><g id="elem_relayserver"><rect fill="#F1F1F1" height="160.7207" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="261" x="7" y="220.1201"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="248" y="225.1201"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="246" y="227.1201"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="246" y="231.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="22" y="256.1641">relayserver</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="267" y1="259.2402" y2="259.2402"/><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="267" y1="261.2402" y2="261.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="22" y="279.2842">运行在桌面山的relayserver</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="22" y="298.4043">一个带gui界面的 go 程序</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="8" x2="267" y1="305.4805" y2="305.4805"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="22" y="325.5244">要依赖</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="221" x="22" y="344.6445">https://github.com/trezor/trezord-go</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="22" y="363.7646">项目</text></g><!--MD5=[d80926c91208070f1daa3c471ba18e8e]
+entity wallet--><g id="elem_wallet"><rect fill="#F1F1F1" height="149.6006" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="302" x="463.5" y="225.6201"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="745.5" y="230.6201"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="743.5" y="232.6201"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="743.5" y="236.6201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="478.5" y="261.6641">wallet</text><line style="stroke:#181818;stroke-width:1.0;" x1="464.5" x2="764.5" y1="264.7402" y2="264.7402"/><line style="stroke:#181818;stroke-width:1.0;" x1="464.5" x2="764.5" y1="266.7402" y2="266.7402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="242" x="478.5" y="284.7842">一个基于 python + pyside6 的钱包应用</text><line style="stroke:#181818;stroke-width:1.0;" x1="464.5" x2="764.5" y1="291.8604" y2="291.8604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="478.5" y="311.9043">v1版本时，这个钱包只用运行在 桌面上</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="478.5" y="331.0244">ubuntu &amp; windows</text><line style="stroke:#181818;stroke-width:1.0;" x1="464.5" x2="764.5" y1="338.1006" y2="338.1006"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="478.5" y="358.1445">v2版本时，将其打包成apk，运行在手机上</text></g><!--MD5=[e009d395c1b322593d4c1af28e3d024d]
+link metamask to relayserver--><g id="link_metamask_relayserver"><path codeLine="34" d="M137.5,123.3101 C137.5,148.6001 137.5,183.1101 137.5,214.9001 " fill="none" id="metamask-to-relayserver" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="137.5,219.9801,141.5,210.9801,137.5,214.9801,133.5,210.9801,137.5,219.9801" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="139" y="169.0181">metamask和trezor钱包的驻留进程通信</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="237" x="142.5" y="186.7725">可以在metamask中看到trezor钱包的地址</text></g><!--MD5=[6d9a04e56bfc8c02b0bbf150338e35df]
+link relayserver to wallet--><g id="link_relayserver_wallet"><path codeLine="37" d="M268.16,300.6201 C326.91,300.6201 396.72,300.6201 458.23,300.6201 " fill="none" id="relayserver-to-wallet" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="463.39,300.6201,454.39,296.6201,458.39,300.6201,454.39,304.6201,463.39,300.6201" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="286.25" y="276.5181">驻留进程和钱包进程通信</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="315.75" y="294.2725">获取地址，签名等</text></g><!--MD5=[b677f84aecdd19436f098e118b2e5e94]
+@startuml 架构
+    title
+        架构
+    end title
+
+    component metamask [
+        metamask
+        ====
+        浏览器中的metamask插件
+    ]
+
+    component relayserver [
+        relayserver
+        ====
+        运行在桌面山的relayserver
+        一个带gui界面的 go 程序
+        ....
+        要依赖 
+        https://github.com/trezor/trezord-go
+        项目
+    ]
+
+
+    component wallet [
+        wallet
+        ====
+        一个基于 python + pyside6 的钱包应用
+        - - - -
+        v1版本时，这个钱包只用运行在 桌面上
+        ubuntu & windows
+        - - - -
+        v2版本时，将其打包成apk，运行在手机上
+    ]
+
+    metamask - -> relayserver : metamask和trezor钱包的驻留进程通信    \n 可以在metamask中看到trezor钱包的地址
+
+    relayserver -> wallet : 驻留进程和钱包进程通信    \n 获取地址，签名等
+
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>
