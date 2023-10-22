@@ -1,0 +1,22 @@
+@startuml trezord-server的主要流程
+    title
+        trezord-server的主要流程
+        trezord-go项目中实现的 Server 行为
+    end title
+
+
+
+
+
+@enduml
+
+
+@startuml trezord-MemoryWriter行为分析
+    title
+        trezord-MemoryWriter行为分析
+    end title
+
+
+
+
+@enduml

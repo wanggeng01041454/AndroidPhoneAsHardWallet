@@ -1,4 +1,4 @@
-@startuml 架构
+@startuml 系统总体架构
     title
         架构
     end title
@@ -76,11 +76,11 @@
         main
         ====
         1. 配置界面的回调函数，指向 trezord 启动函数
-        2. 将界面的写入日志函数，封装成 trezord 的日志输出接口，并传入 trezord 的启动函数
+        2. 将界面的写入日志接口，封装成 trezord 的日志输出接口，并传入 trezord 的启动函数
     ]
 
 
     main --> ui : 配置界面的回调函数，指向 trezord 启动函数
-    main --> trezord : 将界面的写入日志函数，封装成 trezord 的日志输出接口，并传入 trezord 的启动函数
+    main --> trezord : 将界面的写入日志接口，封装成 trezord 的日志输出接口，并传入 trezord 的启动函数
 @enduml
 

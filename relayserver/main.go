@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	ui.RunUi()
+	ui := ui.NewMainWindow("Wallet Relay Server")
+
+	ui.StartUI()
 }
