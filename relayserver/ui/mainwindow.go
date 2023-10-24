@@ -116,6 +116,7 @@ func (mw *mainWindow) makeUI() {
 	}
 
 	mw.window.SetContent(outerVbox)
+	mw.window.Resize(fyne.NewSize(800, 600))
 }
 
 // 启动UI， 只能调用1次
