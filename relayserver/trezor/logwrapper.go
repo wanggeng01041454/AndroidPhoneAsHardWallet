@@ -26,11 +26,13 @@ func newLogWrapper(ui ui.RelayServerUI) memorywriter.LogWriter {
 func (u *logwrapper) Log(s string) {
 	// todo
 	u.stdout.Write([]byte(s))
+	u.stdout.Write([]byte("\n"))
 }
 
 func (u *logwrapper) Write(p []byte) (n int, err error) {
 	// todo
 	u.stdout.Write(p)
+	u.stdout.Write([]byte("\n"))
 	return len(p), nil
 }
 

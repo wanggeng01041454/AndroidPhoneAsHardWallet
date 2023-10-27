@@ -38,6 +38,7 @@ func CreateTrezorServer(ui ui.RelayServerUI) (TrezorServer, error) {
 
 	// todo, 改为dumy输出
 	stderrWriter := os.Stdout
+	// todo version 和 githash 模拟 2.0.4 版本的值
 	version := "0.0.0"
 	githash := "00000"
 
